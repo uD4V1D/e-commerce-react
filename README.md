@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+# In case of issue: 
+In case of issue about the command npm start, check out if npm its already installed in the path. Otherwise verify if the path you are running the npm start it is the same of the github folder path.
+
 ### `npm start`
 
 Runs the app in the development mode.\
