@@ -1,0 +1,28 @@
+.cabecalho{
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    background-color: #2b58de;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cabecalho li{
+    list-style-type: none;
+  }
+  .search-bar{
+    border-radius: 10px;
+    height: 40px;
+    width: 800px;
+  }
+  .link-menu{
+    display: flex;
+    margin-left: 10px;
+    padding: 40px;
+  }
+  .link-menu a{
+      padding: 10px;
+      color: white;
+  }
+
+  

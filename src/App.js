@@ -1,27 +1,24 @@
-import Logo from './components/logo'
+
 import './App.css'
 import Carousel from './components/carousel'
 import Card from './components/cards';
+import Cabecalho from './components/cabecalho';
+
 
 function App() {
+
+    
   return (
-    <><header>
-      <div className='cabecalho'> 
-        <Logo></Logo>
-      
-      <ul className='link-menu'>
-          <li><a href='#'>Link1</a></li>
-          <li><a href='#'>Link2</a></li>
-          <li><a href='#'>Link3</a></li>
-      </ul>
-      </div>
-    </header>
+    <>
+    <Cabecalho></Cabecalho>
     <body>
       <Carousel></Carousel>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
+      <div className='card-container'>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+      </div>
     </body>
     </>
   );
