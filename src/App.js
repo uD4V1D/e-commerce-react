@@ -1,6 +1,7 @@
 import Logo from './components/logo'
 import './App.css'
 import Carousel from './components/carousel'
+import Card from './components/cards';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
     </header>
     <body>
       <Carousel></Carousel>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
     </body>
     </>
   );
