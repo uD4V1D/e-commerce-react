@@ -1,13 +1,22 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Notebook",
+      "preco": 2500.00,
+      "descricao": "Notebook de última geração com processador rápido e alta capacidade de armazenamento."
+    },
+    {
+      "id": 2,
+      "produto": "Smartphone",
+      "preco": 800.00,
+      "descricao": "Smartphone com tela de 6 polegadas, câmera de alta resolução e bateria de longa duração."
+    },
+    {
+      "id": 3,
+      "produto": "Fones de Ouvido",
+      "preco": 50.00,
+      "descricao": "Fones de ouvido sem fio com cancelamento de ruído e qualidade de som excepcional."
     }
-  }
+  ]
+}

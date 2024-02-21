@@ -14,15 +14,38 @@
     border-radius: 10px;
     height: 40px;
     width: 800px;
+
   }
   .link-menu{
     display: flex;
     margin-left: 10px;
     padding: 40px;
+    margin-top: 10px;
+    align-items: center;
+    
+  }
+  #user-menu{
+    margin-left: 40px;
+    display: flex;
+  }
+  #user-menu img{
+    margin-left: 5px;
+  }
+  .link-menu li{
+    margin-left: 10px;
   }
   .link-menu a{
       padding: 10px;
       color: white;
+      
   }
 
+  img{
+    cursor: pointer;
+  }
   
+  .section{
+    display: flex;
+    justify-content: space-between;
+
+  }
